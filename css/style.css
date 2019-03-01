@@ -1,0 +1,64 @@
+body {
+	background-color: #d7d8e28c;
+}
+.wrapper {
+	background-color: #d7d8e28c;
+}
+.line{
+	background-color: orange;
+	height: 5px;
+}
+.product-card {
+	height: 20em;
+	padding: 10px;
+}
+.navbar{
+	padding: .5rem .8rem 0rem .8rem;
+}
+.newitem{
+ margin-left: .8em; 
+ background-color:violet;
+ margin-right: 11em
+}
+.cartdetail1{
+	margin-left: .8em;
+}
+.cardprice1{
+	margin-left: 5em; 
+	color:red;
+}
+.cartdetail2{
+	margin-left: .8em;
+	padding-top: 2em;
+
+}
+.cardprice2{
+	margin-left: 5em; 
+	color:red;
+	padding-top: 0em;
+}
+.product-card .board-image {
+	width: 	25%;
+	background-color: none;
+	background-image: url("./../images/ww.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.product-card .board-image-oimage {
+	width: 	25%;
+	background-color: none;
+	background-image: url("./../images/wmen.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.product-card
+.board-details-section
+.details {
+	height: 14em;
+	margin: 3em 0;
+	background-color: #ffff;
+	/*border-radius: 0 5px 5px 0;*/
+}
