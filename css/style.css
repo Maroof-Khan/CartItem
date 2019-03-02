@@ -6,39 +6,39 @@ body {
 }
 .line{
 	background-color: orange;
-	height: 5px;
+	height: 1rem;
 }
 .product-card {
-	height: 20em;
+	height: 20rem;
 	padding: 10px;
 }
 .navbar{
 	padding: .5rem .8rem 0rem .8rem;
 }
 .newitem{
- margin-left: .8em; 
+ margin-left: 10px; 
  background-color:violet;
- margin-right: 11em
+ margin-right: 150px;
 }
 .cartdetail1{
-	margin-left: .8em;
+	margin-left: .8rem;
 }
 .cardprice1{
-	margin-left: 5em; 
+	margin-left: 5rem; 
 	color:red;
 }
 .cartdetail2{
-	margin-left: .8em;
-	padding-top: 2em;
+	margin-left: .8rem;
+	padding-top: 2rem;
 
 }
 .cardprice2{
-	margin-left: 5em; 
+	margin-left: 5rem; 
 	color:red;
-	padding-top: 0em;
+	padding-top: 0rem;
 }
 .product-card .board-image {
-	width: 	25%;
+	width: 	5rem;
 	background-color: none;
 	background-image: url("./../images/ww.png");
 	background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body {
 	background-position: center;
 }
 .product-card .board-image-oimage {
-	width: 	25%;
+	width: 	5rem;
 	background-color: none;
 	background-image: url("./../images/wmen.png");
 	background-repeat: no-repeat;
