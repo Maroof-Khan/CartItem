@@ -4,61 +4,79 @@ body {
 .wrapper {
 	background-color: #d7d8e28c;
 }
+
 .line{
 	background-color: orange;
 	height: 0.3rem;
 }
 .product-card {
-	height: 20rem;
-	padding: 10px;
+	height: 200px;
+	/* margin: 5px 5px 5px 15px; */
 }
 .navbar{
 	padding: .5rem .8rem 0rem .8rem;
 }
-.newitem{
- margin-left: 10px; 
- background-color:violet;
- margin-right: 150px;
+/* ------------------------------------- */
+.pl-30 {
+	padding-left: 30px;
 }
-.cartdetail1{
-	margin-left: .8rem;
-}
-.cardprice1{
-	margin-left: 5rem; 
-	color:red;
-}
-.cartdetail2{
-	margin-left: .8rem;
-	padding-top: 2rem;
 
+.pr-20 {
+	padding-right: 10px;
 }
-.cardprice2{
-	margin-left: 5rem; 
-	color:red;
-	padding-top: 0rem;
+
+.mt-40 {
+	margin-top: 40px;
 }
-.product-card .board-image {
-	width: 	5rem;
-	background-color: none;
-	background-image: url("./../images/ww.png");
+
+.skate-card {
+	min-width: 250px;
+	max-width: 300px;
+	background: white; 
+	height: 260px; 
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+.board-image {
+	margin-top: -30px;
+	margin-left: -20px;
+	min-width: 86px;
+	max-width: 86px;
+	max-height: 306px;
+	min-height: 306px;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-}
-.product-card .board-image-oimage {
-	width: 	5rem;
-	background-color: none;
-	background-image: url("./../images/wmen.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
 	background-position: center;
 }
 
-.product-card
-.board-details-section
-.details {
-	height: 14em;
-	margin: 3em 0;
-	background-color: #ffff;
-	/*border-radius: 0 5px 5px 0;*/
+.wonder-woment-image {
+	background-image: url("./../images/ww-75.png");
+}
+
+.standart-skate-image {
+	background-image: url("./../images/ssb-75.png");
+}
+
+.detail {
+	padding: 10px;
+	padding-left: 20px;
+}
+.new-icon {
+	padding: 3px 10px;
+	border-radius: 10px;
+	background: #7f7ff5;
+	color: #ffff;
+	font-size: 0.7rem;
+	font-weight: 800;
+}
+
+.hide-new {
+	background: #ffff;
+}
+.option-title > a {
+	padding-left: 1rem;
+}
+
+.option-title > a:not(.collapsed) {
+	border-left: 5px solid orange;
 }
